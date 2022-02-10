@@ -30,6 +30,10 @@ class DrawInformation:
         self.block_height = round((self.height - self.TOP_PAD) / (self.max_val - self.min_val))
         self.start_x = self.SIDE_PAD // 2
 
+def draw(draw_info):
+    draw_info.window.fill(draw_info.BACKGROUND_COLOUR)
+    pygame.display.update()
+
 def generate_starting_list(n, min_val, max_val):
     lst = []
 
@@ -52,6 +56,8 @@ def main():
 
     while run:
         clock.tick(60)
+
+        draw(draw_info)
 
         pygame.display.update()
 
