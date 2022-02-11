@@ -8,11 +8,11 @@ It is a visualisation of **IN-PLACE** sorting algorithms to learn the understand
 -> Python
 
 ## Packages used👨🏻‍💻:
--> Pygame:
+-> **Pygame**:
 Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
 Docs: https://www.pygame.org/docs/
 
--> Random
+-> **Random**:
 In-built package module.
 
 ## Process📄:
